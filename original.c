@@ -1,3 +1,8 @@
+/* I wrote it C the first time because
+   the Rest vala bindings weren't available at
+   the time. It should still work fine, although the
+   callbacks signals need to be changed in glade (remove
+   the flickr_fetcher prefix). */
 #include <stdio.h>
 #include <stdlib.h>
 #include <rest-extras/flickr-proxy.h>
